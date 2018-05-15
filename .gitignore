@@ -1,0 +1,16 @@
+.project
+/.idea
+
+# dependencies
+/.sass-cache
+
+/node_modules
+
+
+.tags
+
+*.zip
+
+
+/test
+/dist
