@@ -1,5 +1,25 @@
 {
   "devDependencies": {
     "gulp": "^3.9.1"
-  }
+  },
+  "name": "gulpproject",
+  "description": "#### 项目介绍  前端工作流程",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies":{
+    
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kroyo/gulpproject.git"
+  },
+  "author": "gkroyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kroyo/gulpproject/issues"
+  },
+  "homepage": "https://github.com/kroyo/gulpproject#readme"
 }

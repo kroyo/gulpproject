@@ -1,0 +1,31 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe E:\software\html5\yarn1.7\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\TortoiseGit\bin;D:\phpStudy\php\php-7.0.12-nts;C:\composer;E:\software\html5\yarn1.7\bin\;E:\software\html5\Ruby23-x64\bin;D:\Program Files\html5\Ruby23-x64\bin;D:\softmore\Ruby23-x64\bin;C:\Users\mi\AppData\Local\Microsoft\WindowsApps;C:\Users\mi\AppData\Roaming\npm;C:\Users\mi\AppData\Roaming\Composer\vendor\bin;C:\Users\mi\AppData\Local\atom\bin;E:\software\html5\Microsoft VS Code\bin;C:\Users\mi\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  6.11.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, open 'F:\project\gulpproject\node_modules\globule\node_modules\inherits\inherits.js'
+      at Error (native)
+
+npm manifest: 
+  {
+    "devDependencies": {
+      "gulp": "^3.9.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

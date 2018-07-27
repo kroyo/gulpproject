@@ -1,6 +1,6 @@
 /**
  * gulpfile 配置文件
- * kroyo
+ * gkroyo
  * version   v1.0.0
  * gulp v3.9.1
  */
@@ -9,13 +9,15 @@
 
 
 const gulp = require('gulp');
-const browerSync = require('browser-sync').create();      // 创建一个browserSync实例
-const sass = require('gulp-sass'); 						      // sass转换工具
+const browerSync = require('browser-sync').create(); // 创建一个browserSync实例
+const sass = require('gulp-sass'); // sass转换工具
+const babel = require('gulp-babel'); // babel => es6转es5
+const autoprefixer = require('gulp-autoprefixer');
 
 
 //目录常量配置
 const sourceDir = './src/',								//源文件根目录
-	  htmlSourceDir = sourceDir + 'html/',				//源HTML文件目录
+	  htmlSourceDir = sourceDir + 'page/',				//源HTML文件目录
 	  cssSourceDir = sourceDir + 'css/',				//源CSS文件目录
 	  jsSourceDir = sourceDir + 'js/',					//源JS文件目录
 	  scssSourceDir = sourceDir + 'scss/',				//源Scss文件目录
@@ -24,7 +26,7 @@ const sourceDir = './src/',								//源文件根目录
 	  mediaSourceDir = sourceDir + 'media/',			//源媒体文件目录
 	  
 	  targetDir = './dist/',							//目标文件根目录
-	  htmlTargetDir = targetDir + 'html/',				//目标HTML文件目录
+	  htmlTargetDir = targetDir + 'page/',				//目标HTML文件目录
 	  cssTargetDir = targetDir + 'css/',				//目标CSS文件目录
 	  jsTargetDir = targetDir + 'js/',					//目标JS文件目录
 	  imgTargetDir = targetDir + 'img/',				//目标JS文件目录
